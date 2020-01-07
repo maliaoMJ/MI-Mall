@@ -1,0 +1,28 @@
+.aws-sld {
+  --cube-animation-duration: 105ms;
+  --cube-animation-perspective: 1800px;
+  --cube-animation-ease-in: cubic-bezier(0.8, 0, 1, 0.8);
+  --cube-animation-ease-out: cubic-bezier(0, 0.2, 0.2, 1);
+  --cube-translateZ-distance: -225px;
+}
+.aws-btn {
+  --slider-height-percentage: 60%;
+  --slider-transition-duration: 200ms;
+  --organic-arrow-thickness: 4px;
+  --organic-arrow-border-radius: 0px;
+  --organic-arrow-height: 40px;
+  --organic-arrow-color: #ffb512;
+  --control-button-width: 5%;
+  --control-button-height: 25%;
+  --control-button-background: transparent;
+  --control-bullet-color: #ffb212;
+  --control-bullet-active-color: #ffab11;
+  --loader-bar-color: #ffa009;
+  --loader-bar-height: 1px;
+}
+.awssld__prev {
+  margin-left: 280px;
+}
+.awssld__bullets {
+  display: none !important;
+}
