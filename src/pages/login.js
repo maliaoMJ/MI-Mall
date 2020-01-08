@@ -77,7 +77,7 @@ class LoginPage extends Component {
               </a>
               <span>|</span>
               <a
-                href="https://github.com/maliaoMJ/"
+                href="https://github.com/maliaoMJ/MI-Mall"
                 rel="noopener noreferrer"
                 target="_blank"
               >
