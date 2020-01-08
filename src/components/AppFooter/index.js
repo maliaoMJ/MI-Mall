@@ -3,7 +3,7 @@ import './index.less'
 class AppFooter extends Component {
   render() {
     return (
-      <div className="footer">
+      <div className="app-footer">
         <div className="footer-logo">
           <img src="http://mi.futurefe.com/imgs/logo-footer.png" alt="" />
           <p>小米商城</p>
@@ -50,7 +50,7 @@ class AppFooter extends Component {
             target="_blank"
           >
             &nbsp;carlosme.fun
-          </a>{' '}
+          </a>
           All Rights Reserved.
         </div>
       </div>

@@ -4,6 +4,7 @@ import NavBar from '../components/NavBar/index'
 import NavHeader from '../components/NavHeader/index'
 import AppFooter from '../components/AppFooter/index'
 import ServiceNav from '../components/ServiceNav/index'
+import ProductItem from '../components/ProductItem/index'
 import '../assets/styles/pages/index.less'
 import AwesomeSlider from 'react-awesome-slider'
 import '../assets/styles/pages/index.scss'
@@ -320,7 +321,20 @@ class IndexPage extends Component {
                     />
                   </Link>
                 </div>
-                <div className="list-box"></div>
+                <div className="list-box">
+                  <div className="list">
+                    <ProductItem></ProductItem>
+                    <ProductItem></ProductItem>
+                    <ProductItem></ProductItem>
+                    <ProductItem></ProductItem>
+                  </div>
+                  <div className="list">
+                    <ProductItem></ProductItem>
+                    <ProductItem></ProductItem>
+                    <ProductItem></ProductItem>
+                    <ProductItem></ProductItem>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
