@@ -11,6 +11,7 @@ import {
 import PropTypes from 'prop-types'
 import IndexPage from './pages/index'
 import LoginPage from './pages/login'
+import productPage from './pages/product'
 import { getUserName, setUserName } from './store/user/action'
 
 class App extends React.Component {
@@ -32,6 +33,7 @@ class App extends React.Component {
           />
           <Route path="/home" component={IndexPage} />
           <Route path="/login" component={LoginPage} />
+          <Route path="/product" component={productPage} />
         </Switch>
       </Router>
     )
